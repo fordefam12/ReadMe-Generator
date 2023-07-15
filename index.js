@@ -1,7 +1,7 @@
 
 const fs = require('fs');
 const inquirer = require('inquirer');
-const newFile = require("./output/readMe.md") 
+const newFile = require("./output") 
 
 console.log('\n================================================\n');
 // code will go here
@@ -44,13 +44,17 @@ inquirer.createPromptModule([{
     message:"who all contributed on this project?"
 },{
     type:"input",
-    name:'title',
-    message:"what is the title of the project?"
+    name:'test',
+    message:"where any test included"
 },{
     type:"input",
-    name:'title',
-    message:"what is the title of the project?"
-},])
+    name:'questions',
+    message:"what do i do if i have a issue?"
+},]);
+
+
+
+
 console.log('\n================================================\n');
 // GIVEN a command-line application that accepts user input
 // WHEN I am prompted for information about my application repository
@@ -68,8 +72,9 @@ console.log('\n================================================\n');
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
 
-fs.writeFile('readMe.md', data, (error, data) =>
-  error ? console.error(error) : console.log(data)
+fs.writeFile('log.txt', 'utf8', (error, data) =>
+  error ? console.error(err) : console.log
+  ('success')
 );
 // path needs to be the ouput folder where the new read me goes.
 
