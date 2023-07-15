@@ -72,7 +72,7 @@ console.log('\n================================================\n');
 // WHEN I click on the links in the Table of Contents
 // THEN I am taken to the corresponding section of the README
 
-fs.writeFile('log.txt', 'utf8', (error, data) =>
+fs.writeFile('./outpit/readMe.md' (data), (error, data) =>
   error ? console.error(err) : console.log
   ('success')
 );
