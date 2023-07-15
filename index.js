@@ -1,69 +1,68 @@
-
-const fs = require('fs');
-const inquirer = require('inquirer');
-const newFile = require("./temp/readmeTemp") 
+const fs = require("fs");
+const inquirer = require("inquirer");
+const newFile = require("./temp/readmeTemp");
 
 // code will go here
 const userInput = () =>
-inquirer.prompt([{
-    type:"input",
-    name:'title',
-    message:"what is the title of the project?"
-}, 
+  inquirer.prompt([
+    {
+      type: "input",
+      name: "title",
+      message: "what is the title of the project?",
+    },
 
-{
-    type:"input",
-    name:'description',
-    message:"what is the description of your project?"
-},
-{
-    type:"input",
-    name:'tableOfContents',
-    message:"what is the ttable of content for this project?"
-},
-{
-    type:"input",
-    name:'installation',
-    message:"Describe the installation process if any:"
-},
-{
-    type:"input",
-    name:'usage',
-    message:"what is this project used for ?"
-},
-{
-    type:"list",
-    name:'License',
-    message:"what licenses were used for the project?",
-    choices: [
-        "Apache",
-        "Academic",
-        "GNU",
-        "ISC",
-        "MIT",
-        "Mozilla",
-        "Open"
-    ]
-},
-{
-    type:"input",
-    name:'Contributing',
-    message:"who all contributed on this project?"
-},
-{
-    type:"input",
-    name:'test',
-    message:"where any test included"
-},
-{
-    type:"input",
-    name:'questions',
-    message:"what do i do if i have a issue?"
-},]);
-
-
-
-
+    {
+      type: "input",
+      name: "description",
+      message: "what is the description of your project?",
+    },
+    {
+      type: "input",
+      name: "tableOfContents",
+      message: "what is the ttable of content for this project?",
+    },
+    {
+      type: "input",
+      name: "installation",
+      message: "Describe the installation process if any:",
+    },
+    {
+      type: "input",
+      name: "usage",
+      message: "what is this project used for ?",
+    },
+    {
+      type: "list",
+      name: "License",
+      message: "what licenses were used for the project?",
+      choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
+    },
+    {
+      type: "input",
+      name: "Contributing",
+      message: "who all contributed on this project?",
+    },
+    {
+      type: "input",
+      name: "test",
+      message: "where any test included",
+    },
+    {
+      type: "input",
+      name: "questions",
+      message: "what do i do if i have a issue?",
+    },
+    {
+      type: "input",
+      name: "email",
+      message: "what is your email ?",
+    },
+    {
+      type: "input",
+      name: "username",
+      message: "what is your github username?",
+    },
+  ]);
 
 // GIVEN a command-line application that accepts user input
 
@@ -95,24 +94,20 @@ inquirer.prompt([{
 
 // THEN I am taken to the corresponding section of the README
 
-    
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, newFile(data), (err) =>
-  err ? console.error(err) : console.log('Success!')
-)
-};
-  // function to initialize program
-  function init() {
-    
-    userInput().then((data) => writeToFile("./output/README.md", data));
-  }
-  
-  // function call to initialize program
-  init();
+    err ? console.error(err) : console.log("Success!")
+  );
+}
+// function to initialize program
+function init() {
+  userInput().then((data) => writeToFile("./output/README.md", data));
+}
 
+// function call to initialize program
+init();
 
-
-// path needs to be the ouput folder where the new read me goes.
+// path needs to be the output folder where the new read me goes.
 
 // license and badges will be tricky
 
