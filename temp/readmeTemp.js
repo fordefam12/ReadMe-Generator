@@ -1,60 +1,60 @@
 function newFile(data) {
-  const licenseBadge = "";
+  let licenseBadge = "";
   if (data.License) {
-    licenseBadge = `[License: ${data.License}](https://img.shields.io/badge/${data.License}-blue.svg)]`;
+    (data.License = data.License.split(" ").join("_")),
+      console.log(data.License);
+    licenseBadge = `[![License: ${data.Licensecense}](https://img.shields.io/badge/License-${data.License}-brightgreen.svg)](https://opensource.org/licenses/${data.License})\n\n`;
   }
+  console.log(licenseBadge)
+
   const readMe = `
-      # ${data.title}
+# ${data.title}
+${licenseBadge}
+## Description
 
-      ## Description
+ ${data.description}
 
-     ${data.description}
+## Table of Contents
+*[Title](#title)
 
-      ## Table of Contents
-
-      *[Title](#title)
-
-      *[Description](#description)
+*[Description](#description)
     
-      *[Installation](#installation)
+*[Installation](#installation)
     
-      *[Usage](#usage)
+*[Usage](#usage)
     
-      *[License](#license)
+*[License](#license)
     
-      *[Contributors](#contributor)
+*[Contributors](#contributor)
     
-      *[Tests](#test)
+*[Tests](#test)
     
-      *[Questions](#questions)
+*[Questions](#questions)
     
 
-     ## Installation
+## Installation
 
-     ${data.installation}
+${data.installation}
 
-     ## Usage
+## Usage
 
-     ${data.usage}
+${data.usage}
 
-     ## Contributors
-     ${data.Contributing}
+## Contributors
+${data.Contributing}
 
-     ## License
-     ${licenseBadge}
-     ${data.License}
+## License
+${licenseBadge}
+${data.License}
 
-     ## Features
+## Tests
+${data.test}
 
-
-     ## Tests
-     ${data.test}
-
-     ## Questions
-      Any questions about this project please send me a message on https://github.com/${data.username} or email me at [${data.email}](mailto:${data.email})
+## Questions
+Any questions about this project please send me a message onhttps://github.com/${data.username} or email me at [${data.email}]
   
-     `;
-      return readMe;
+`;
+  return readMe;
 }
 
 module.exports = newFile;
