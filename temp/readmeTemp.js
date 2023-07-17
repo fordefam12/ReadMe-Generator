@@ -47,6 +47,8 @@ ${data.Contributing}
 ${licenseBadge}
 ${data.License}
 
+## badges
+
 ## Tests
 ${data.test}
 

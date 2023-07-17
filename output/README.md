@@ -48,3 +48,5 @@ yes
 ## Questions
 Any questions about this project please send me a message on *https://github.com/fordefam12 or email me at [fordefam12@gmail.com]
   
+  <video src="Google.mp4" controls title="walkthrough video"></video>
+![QR code](frame.png)
