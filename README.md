@@ -2,7 +2,7 @@
 ![JavaScript](https://img.shields.io/badge/JavaScript-100%25-red)
 ## Description
 
- generate readme 
+ generates a professional readme 
 
 ## Table of Contents
 *[Title](#title)
