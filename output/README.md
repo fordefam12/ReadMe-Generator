@@ -1,9 +1,9 @@
 
-      # brandons 
+      # brandon
 
       ## Description
 
-     readme test
+     test
 
       ## Table of Contents
 
@@ -26,24 +26,26 @@
 
      ## Installation
 
-     test
+     im just testing
 
      ## Usage
 
-     testing 
+     generate a readme
 
      ## Contributors
-     undefined
+     just me
 
      ## License
      
-     undefined
+     MIT
 
      ## Features
 
 
-## Tests
-just this one
+     ## Tests
+     yes
 
-## Questions
-fordefam02@gmail.com
+     ## Questions
+      Any questions about this project please send me a message on https://github.com/fordefam12@gmail.com or email me at [fordefam02@gmail.com](mailto:fordefam02@gmail.com)
+  
+     

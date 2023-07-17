@@ -1,7 +1,7 @@
 function newFile(data) {
   const licenseBadge = "";
-  if (data.license) {
-    licenseBadge = `[![License: ${data.license}](https://img.shields.io/badge/License-${data.license}-brightgreen.svg)](https://opensource.org/licenses/${data.license})\n\n`;
+  if (data.License) {
+    licenseBadge = `[License: ${data.License}](https://img.shields.io/badge/${data.License}-blue.svg)]`;
   }
   const readMe = `
       # ${data.title}
@@ -38,23 +38,23 @@ function newFile(data) {
      ${data.usage}
 
      ## Contributors
-     ${data.contributing}
+     ${data.Contributing}
 
      ## License
      ${licenseBadge}
-     ${data.license}
+     ${data.License}
 
      ## Features
 
 
-## Tests
-${data.test}
+     ## Tests
+     ${data.test}
 
-## Questions
-  Any questions about this project please send me a message on https://github.com/${data.username} or email me at [${data.email}](mailto:${data.email})
+     ## Questions
+      Any questions about this project please send me a message on https://github.com/${data.username} or email me at [${data.email}](mailto:${data.email})
   
-`;
-  return readMe;
+     `;
+      return readMe;
 }
 
 module.exports = newFile;
