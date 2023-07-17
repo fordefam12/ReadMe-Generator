@@ -1,11 +1,11 @@
 
-# 
-[![License: undefined](https://img.shields.io/badge/License-Academic_Free_License_v3.0-brightgreen.svg)](https://opensource.org/licenses/Academic_Free_License_v3.0)
+# brandons readme generator
+[![License: undefined](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 
 ## Description
 
- 
+ generate readme 
 
 ## Table of Contents
 *[Title](#title)
@@ -27,24 +27,24 @@
 
 ## Installation
 
-
+node .js terminal
 
 ## Usage
 
-
+generating readMe
 
 ## Contributors
-
+n/a
 
 ## License
-[![License: undefined](https://img.shields.io/badge/License-Academic_Free_License_v3.0-brightgreen.svg)](https://opensource.org/licenses/Academic_Free_License_v3.0)
+[![License: undefined](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 
-Academic_Free_License_v3.0
+MIT
 
 ## Tests
-
+yes
 
 ## Questions
-Any questions about this project please send me a message on *https://github.com/ or email me at []
+Any questions about this project please send me a message on *https://github.com/fordefam12 or email me at [fordefam12@gmail.com]
   
