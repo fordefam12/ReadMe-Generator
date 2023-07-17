@@ -5,7 +5,7 @@ function newFile(data) {
       console.log(data.License);
     licenseBadge = `[![License: ${data.Licensecense}](https://img.shields.io/badge/License-${data.License}-brightgreen.svg)](https://opensource.org/licenses/${data.License})\n\n`;
   }
-  console.log(licenseBadge)
+  
 
   const readMe = `
 # ${data.title}
