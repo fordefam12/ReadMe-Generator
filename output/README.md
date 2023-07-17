@@ -1,11 +1,11 @@
 
-# brandons generator
-[![License: undefined](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+# 
+[![License: undefined](https://img.shields.io/badge/License-Academic_Free_License_v3.0-brightgreen.svg)](https://opensource.org/licenses/Academic_Free_License_v3.0)
 
 
 ## Description
 
- generates a readMe file
+ 
 
 ## Table of Contents
 *[Title](#title)
@@ -27,24 +27,24 @@
 
 ## Installation
 
-n/a
+
 
 ## Usage
 
-generating readMe
+
 
 ## Contributors
-just me
+
 
 ## License
-[![License: undefined](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+[![License: undefined](https://img.shields.io/badge/License-Academic_Free_License_v3.0-brightgreen.svg)](https://opensource.org/licenses/Academic_Free_License_v3.0)
 
 
-MIT
+Academic_Free_License_v3.0
 
 ## Tests
-yes
+
 
 ## Questions
-Any questions about this project please send me a message onhttps://github.com/fordefam12 or email me at [fordefam12@gmail.com]
+Any questions about this project please send me a message on *https://github.com/ or email me at []
   

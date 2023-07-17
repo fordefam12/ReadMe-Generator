@@ -16,11 +16,7 @@ const userInput = () =>
       name: "description",
       message: "what is the description of your project?",
     },
-    {
-      type: "input",
-      name: "tableOfContents",
-      message: "what is the table of content for this project?",
-    },
+    
     {
       type: "input",
       name: "installation",
