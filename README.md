@@ -1,7 +1,5 @@
 # brandons readme generator
-[![License: undefined](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-
-
+![JavaScript](https://img.shields.io/badge/JavaScript-100%25-red)
 ## Description
 
  generate readme 
@@ -26,20 +24,17 @@
 
 ## Installation
 
-node .js terminal
+N/A
 
 ## Usage
 
-generating readMe
+generating professional readMe
 
 ## Contributors
 n/a
 
 ## License
-[![License: undefined](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-
-
-MIT
+n/a
 
 ## badges
 ![JavaScript](https://img.shields.io/badge/JavaScript-100%25-red)
@@ -51,5 +46,5 @@ yes
 ## Questions
 Any questions about this project please send me a message on *https://github.com/fordefam12 or email me at [fordefam12@gmail.com]
   
-  <video src="Google.mp4" controls title="walkthrough video"></video>
-![QR code](frame.png)
+  <video src="./output/Google.mp4" controls title="walkthrough video"></video>
+![QR code](./output/frame.png)
