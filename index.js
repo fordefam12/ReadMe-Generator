@@ -139,8 +139,4 @@ function init() {
 // function call to initialize program
 init();
 
-// path needs to be the output folder where the new read me goes.
 
-// license and badges will be tricky
-
-// link will also be tricky
