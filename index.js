@@ -1,6 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const newFile = require("./temp/readmeTemp");
+const { log } = require("console");
 
 // code will go here
 const userInput = () =>
@@ -67,6 +68,7 @@ const userInput = () =>
         "University of Illinois/NCSA Open Source License",
         "The Unlicense",
         "zLib License",
+        "",
       ],
     },
     {
@@ -80,9 +82,10 @@ const userInput = () =>
       message: "where any test included",
     },
     {
-      type: "input",
+      type: "list",
       name: "questions",
       message: "what do i do if i have a issue?",
+      choices: ['refer to question']
     },
     {
       type: "input",
@@ -94,6 +97,20 @@ const userInput = () =>
       name: "username",
       message: "what is your github username?",
     },
+    {
+      type: "input",
+      name: "javascript",
+      message: "how much javascsript did you use?",
+    },{
+      type: "input",
+      name: "html",
+      message: "how much HTML did you use?",
+    },{
+      type: "input",
+      name: "css",
+      message: "how much CSS did you use?",
+    },
+    
   ]);
 
 // GIVEN a command-line application that accepts user input
@@ -128,7 +145,8 @@ const userInput = () =>
 
 function writeToFile(fileName, data) {
   fs.writeFile(fileName, newFile(data), (err) =>
-    err ? console.error(err) : console.log("Success!")
+    err ? console.error(err) : console.log("Success!"),
+    console.log(data)
   );
 }
 // function to initialize program
