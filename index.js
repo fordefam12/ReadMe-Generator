@@ -1,7 +1,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 const newFile = require("./temp/readmeTemp");
-const { log } = require("console");
+
 
 // code will go here
 const userInput = () =>
@@ -109,7 +109,12 @@ const userInput = () =>
       type: "input",
       name: "css",
       message: "how much CSS did you use?",
+    },{
+      type: "input",
+      name: "QRcode",
+      message: "what is the QR CODE link?",
     },
+
     
   ]);
 

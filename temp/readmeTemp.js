@@ -3,7 +3,7 @@ function newFile(data) {
   if (data.License) {
     (data.License = data.License.split(" ").join("_")),
       console.log(data.License);
-    licenseBadge = `[![License: ${data.Licensecense}](https://img.shields.io/badge/License-${data.License}-brightgreen.svg)](https://opensource.org/licenses/${data.License})\n\n`;
+    licenseBadge = `[![License: ${data.License}](https://img.shields.io/badge/License-${data.License}-brightgreen.svg)](https://opensource.org/licenses/${data.License})\n\n`;
   }
   let Badge = "";
   if (data.javascript,data.html,data.css) {
@@ -70,7 +70,9 @@ Any questions about this project please send me a message on *https://github.com
 
 ## URL
   
-
+<p align='center'>
+<a href='https://github.com/${data.username}/${data.title}'><img src='./${data.QRcode}' width="60%"></a>
+</p>
 
 ## Screenshots
 
