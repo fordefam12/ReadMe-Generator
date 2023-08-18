@@ -114,6 +114,11 @@ const userInput = () =>
       name: "QRcode",
       message: "what is the QR CODE link?",
     },
+    {
+      type: "input",
+      name: "logo",
+      message: "what is the logo link?",
+    },
 
     
   ]);

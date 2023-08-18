@@ -18,7 +18,10 @@ function newFile(data) {
 
   const readMe = `
 # ${data.title}
-${Badge}
+
+<p align='center'>
+<a href='https://github.com/${data.username}'><img src='./assets/logo'height='20%' width="20%"></a>
+</p>
 ## Description
 
  ${data.description}
@@ -56,23 +59,30 @@ ${data.Contributing}
 
 ## License
 ${licenseBadge}
-${data.License}
+
 
 ## badges
 
 ${Badge}
 
+<p align='center'>
+<a href='https://github.com/${data.username}/${data.title}'><img src='./${data.QRcode}' width="60%"></a>
+</p>
+<p align='center'>
+<a><img src="https://github-readme-stats.vercel.app/api?username=${data.username}&show_icons=true&theme=transparent" alt="${data.username}'s github stats"></a>
+<a><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=${data.username}&layout=compact" height ="20%" width= "27%"></a>
+</p>
+
+
 ## Tests
 ${data.test}
+
 
 ## Questions
 Any questions about this project please send me a message on *https://github.com/${data.username} or email me at [${data.email}]
 
 ## URL
   
-<p align='center'>
-<a href='https://github.com/${data.username}/${data.title}'><img src='./${data.QRcode}' width="60%"></a>
-</p>
 
 ## Screenshots
 
