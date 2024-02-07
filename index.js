@@ -109,7 +109,8 @@ const userInput = () =>
       type: "input",
       name: "css",
       message: "how much CSS did you use?",
-    },{
+    },
+    {
       type: "input",
       name: "QRcode",
       message: "what is the QR CODE link?",

@@ -20,7 +20,7 @@ function newFile(data) {
 # ${data.title}
 
 <p align='center'>
-<a href='https://github.com/${data.username}'><img src='./assets/logo'height='20%' width="20%"></a>
+<a href='https://github.com/${data.username}'><img src='./assets/${data.logo}'height='20%' width="20%"></a>
 </p>
 ## Description
 
@@ -83,6 +83,11 @@ Any questions about this project please send me a message on *https://github.com
 
 ## URL
   
+<p align='center'>
+<a href='https://serene-sea-98817-31cd6b171e7f.herokuapp.com/'>
+CLICK QR CODE for deploy link
+// <img src='./src/assets/${data.QRcode}' width="25%"></a>
+</p>
 
 ## Screenshots
 
